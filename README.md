@@ -34,16 +34,16 @@ Methodlogy:
 
 (I) The First stage is understanding the data. there are several datasets were given 
 
-# Datasets releated to Train
-# train_dataset         - (date,farm_id,ingrident_type,yield) columns
-# train_weather_dataset - (timestamp,deidentified_location,temp_obs,cloudiness,wind_direction,dew_temp,pressure_sea_level,precipitation,wind_speed) 
+ Datasets releated to Train
+ train_dataset         - (date,farm_id,ingrident_type,yield) columns
+ train_weather_dataset - (timestamp,deidentified_location,temp_obs,cloudiness,wind_direction,dew_temp,pressure_sea_level,precipitation,wind_speed) 
 
-# Datastes releated to Test
-# test_dataset          - (date,farm_id,ingrident_type,id) columns
-# test_weather_dataset  - (timestamp,deidentified_location,temp_obs,cloudiness,wind_direction,dew_temp,pressure_sea_level,precipitation,wind_speed)
+ Datastes releated to Test
+ test_dataset          - (date,farm_id,ingrident_type,id) columns
+ test_weather_dataset  - (timestamp,deidentified_location,temp_obs,cloudiness,wind_direction,dew_temp,pressure_sea_level,precipitation,wind_speed)
 
-# Datasets related to Farm
-# farm_dataset          - (farm_id,operations_commencing_year,num_processing_plants,farm_area,farming_company,deidentified_location) columns
+ Datasets related to Farm
+ farm_dataset          - (farm_id,operations_commencing_year,num_processing_plants,farm_area,farming_company,deidentified_location) columns
 
 
 (II) The Second stage was the Expolratory Data Analysis and Data Preprcessing. In Explorartory Data Analysis we usally see how our data is with the help of
@@ -55,22 +55,22 @@ data. such as merging, subsetting datasets, type casting, handling null values.
 (IV) Results and Discussions: • For our data in time series models Holt's winter model were forecasts with less root mean square error 945.06 compared to others,
 in Ensemble techniques Gradient Boosting Regressor forecasts well with rmse of 795.86
 
-#    Model                     RMSE
-# Simple linear regresson   : 2191.88
-# Multi linear regresson    : 881.97
-# Lasso Regression          : 1461.19
-# Ridge Regression          : 892.25
-# Decision Tree Regressor   : 9551.99
-# Random Forest Regressor   : 1393.65
-# GradientBoostingRegressor : 795.86
+    Model                     RMSE
+ Simple linear regresson   : 2191.88
+ Multi linear regresson    : 881.97
+ Lasso Regression          : 1461.19
+ Ridge Regression          : 892.25
+ Decision Tree Regressor   : 9551.99
+ Random Forest Regressor   : 1393.65
+ GradientBoostingRegressor : 795.86
 
-# time series models
+ time series models
 
-# Arimax                    : 946.05
-# Holt's Winter             : 906.61
-# Arima                     : 1209.98
-# SArima                    : 945.06
-# Auto Arima                : 1253.15
+ Arimax                    : 946.05
+ Holt's Winter             : 906.61
+ Arima                     : 1209.98
+ SArima                    : 945.06
+ Auto Arima                : 1253.15
 
 
 # Gradient Boosting Regressor: 
