@@ -56,20 +56,31 @@ data. such as merging, subsetting datasets, type casting, handling null values.
 in Ensemble techniques Gradient Boosting Regressor forecasts well with rmse of 795.86
 
     Model                     RMSE
+    
  Simple linear regresson   : 2191.88
+ 
  Multi linear regresson    : 881.97
+ 
  Lasso Regression          : 1461.19
+ 
  Ridge Regression          : 892.25
+ 
  Decision Tree Regressor   : 9551.99
+ 
  Random Forest Regressor   : 1393.65
+ 
  GradientBoostingRegressor : 795.86
 
  time series models
 
  Arimax                    : 946.05
+ 
  Holt's Winter             : 906.61
+ 
  Arima                     : 1209.98
+ 
  SArima                    : 945.06
+ 
  Auto Arima                : 1253.15
 
 
