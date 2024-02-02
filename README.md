@@ -1,6 +1,6 @@
 # Robust_yield_prediction
 
-This Repository consists files of the ML Project - customer life time value on for an auto insurance company, It is an academic project for the PG Program in Data Science & Analytics @ Insofe.
+This Repository consists of files of the ML Project - customer lifetime value for a Fast Food chain (restaurant), It is an academic project for the PG Program in Data Science & Analytics @ Insofe.
 
 Files :
 
@@ -16,7 +16,7 @@ v.   test_weather.csv  - https://drive.google.com/file/d/1yLlygP--PwMdCQTjXR8VVG
 
 Robust Yield Prediction Yield Plan.
 
-Introduction: Robust yield prediction is a critical area of research in agriculture that aims to provide accurate forecasts of crop yields, taking into account various factors such as weather patterns, different properties of farm. Accurate yield predictions are essential for ensuring food security, managing crop prices, and optimizing resource allocation.
+Introduction: Robust yield prediction is a critical area of research in agriculture that aims to provide accurate forecasts of crop yields, taking into account various factors such as weather patterns, and different properties of farms. Accurate yield predictions are essential for ensuring food security, managing crop prices, and optimizing resource allocation.
 
 Traditionally, yield predictions have been made using statistical models that rely on historical data and assumptions about the relationships between crop yield and environmental factors. However, these models often fail to capture the complex and dynamic nature of agricultural systems, resulting in inaccurate and unreliable predictions.
 
@@ -26,19 +26,19 @@ Robust yield prediction has significant implications for agricultural management
 
 Problem Description :
 
-The problem at hand involves a new fast food chain that has been rapidly expanding over the past few years. As the company continues to grow, they need to ensure that they can meet the increasing demand for their products. To do this, they are looking to optimize their supply chain and ensure that they do not face any shortages of ingredients that could potentially hinder their ability to deliver to customers on time.
+The problem at hand involves a new fast-food chain that has been rapidly expanding over the past few years. As the company continues to grow, they need to ensure that they can meet the increasing demand for its products. To do this, they are looking to optimize their supply chain and ensure that they do not face any shortages of ingredients that could potentially hinder their ability to deliver to customers on time.
 
 To address this challenge, the company has decided to launch a machine learning competition, in which participants are expected to build a model or a set of models that can predict the output of the food processing farms for the next year. 
 
-Methodlogy:
+Methodology:
 
 (I) The First stage is understanding the data. there are several datasets were given 
 
- Datasets releated to Train
+ Datasets related to Train
  train_dataset         - (date,farm_id,ingrident_type,yield) columns
  train_weather_dataset - (timestamp,deidentified_location,temp_obs,cloudiness,wind_direction,dew_temp,pressure_sea_level,precipitation,wind_speed) 
 
- Datastes releated to Test
+ Datasets related to the Test
  test_dataset          - (date,farm_id,ingrident_type,id) columns
  test_weather_dataset  - (timestamp,deidentified_location,temp_obs,cloudiness,wind_direction,dew_temp,pressure_sea_level,precipitation,wind_speed)
 
@@ -46,14 +46,14 @@ Methodlogy:
  farm_dataset          - (farm_id,operations_commencing_year,num_processing_plants,farm_area,farming_company,deidentified_location) columns
 
 
-(II) The Second stage was the Expolratory Data Analysis and Data Preprcessing. In Explorartory Data Analysis we usally see how our data is with the help of
+(II) The Second stage was the Exploratory Data Analysis and Data Preprocessing. In Exploratory Data Analysis we usually see how our data is with the help of
 descriptive statistics or data visualizations in what way we have to do data preprocessing based on the analysis we have done on the EDA we will preprocess the
-data. such as merging, subsetting datasets, type casting, handling null values.
+data. such as merging, subsetting datasets, type casting, and handling null values.
 
-(III) Model Building: In this stage, using Statistical Models, Machine Learning Algorithms,Ensemble techniques and time series techniques were used.
+(III) Model Building: In this stage, using Statistical Models, Machine Learning Algorithms, Ensemble techniques and time series techniques were used.
 
-(IV) Results and Discussions: • For our data in time series models Holt's winter model were forecasts with less root mean square error 945.06 compared to others,
-in Ensemble techniques Gradient Boosting Regressor forecasts well with rmse of 795.86
+(IV) Results and Discussions: • For our data in time series models Holt's winter model was forecasted with less root mean square error of 945.06 compared to others,
+In ensemble techniques Gradient Boosting Regressor forecasts well with RMSE of 795.86
 
     Model                     RMSE
     
@@ -96,14 +96,14 @@ By leveraging large datasets and advanced algorithms like Gradient Boosting Regr
 # Holt's Winter:
 Holt-Winters, also known as Triple Exponential Smoothing, is a time series forecasting method that is commonly used in business and economics to make short-term predictions about future values of a variable based on historical data.
 
-The Holt-Winters method takes into account three components of a time series: trend, seasonality, and level. Trend represents the overall direction of the series, seasonality represents repeating patterns over a fixed period of time, and level represents the baseline value of the series.
+The Holt-Winters method takes into account three components of a time series: trend, seasonality, and level. Trend represents the overall direction of the series, seasonality represents repeating patterns over a fixed period, and level represents the baseline value of the series.
 
 The algorithm applies exponential smoothing to each of these three components separately and combines them to make a forecast. The method is called "triple" exponential smoothing because it involves three exponential smoothing calculations.
 
 Holt-Winters is useful when a time series has both trend and seasonality, making it difficult to make accurate predictions using other methods such as simple moving averages. It is a powerful forecasting tool that can be used in a wide range of applications, from finance and economics to weather forecasting and energy demand prediction many more.
 
 
-Tools and Technology Stack: • Jupyter notebook • Python
+Tools and Technology Stack: • Jupyter Notebook • Python
 
-Conclusion: The project has successfully demonstrated the use of Holt's Winter in the development of customer life time value
-Forecasting model on a dataset consisting of various parameters related to the obtaining of Yiled. The results were very not so realistic in nature as no one were unable to predict the future accurately. 
+Conclusion: The project has successfully demonstrated the use of Holt's Winter in the development of customer lifetime value
+Forecasting model on a dataset consisting of various parameters related to the obtaining of Yield. The results were very not so realistic as no one was able to predict the future accurately. 
