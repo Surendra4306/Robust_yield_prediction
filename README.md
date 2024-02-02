@@ -14,7 +14,7 @@ iv.  test_data.csv     - https://drive.google.com/file/d/1y5wUFSahjUK7hXlo31gQ6P
 
 v.   test_weather.csv  - https://drive.google.com/file/d/1yLlygP--PwMdCQTjXR8VVGzlp0i50AcO/view?usp=share_link
 
-Robust Yield Prediction Yield Plan.
+Robust Yield Prediction Plan.
 
 Introduction: Robust yield prediction is a critical area of research in agriculture that aims to provide accurate forecasts of crop yields, taking into account various factors such as weather patterns, and different properties of farms. Accurate yield predictions are essential for ensuring food security, managing crop prices, and optimizing resource allocation.
 
